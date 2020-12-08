@@ -1,10 +1,11 @@
+# Create-Business
 
 # Overview
-In this project I will fetch data about businesses from the yelp API within 15 miles of UMBC in attempt to find hidden patterns in the businesses surrounding the school.  The task at hand is to use the yelp API to gather data on the businesses around UMBC and then explore and perform machine learning on it to find hidden groups of businesses to help current and prospective business owners.
+In this project I will fetch data about businesses from the yelp API within 15 miles of UMBC in attempt to find hidden patterns in the businesses surrounding the school.  The task at hand is to use the yelp API to gather data on the businesses around UMBC and then explore and perform machine learning on it to find hidden groups of businesses to help current and prospective business owners.  Once we see a lack of a certain type of business, the second machine learning problem to build on it is: can we predict the price level for the prospective business based on its features?  To expand upon the findings of what is lacking for types of businesses in a certain location, I will build a model that predicts the price level for that desired business so that the potential owner may know what kind of prices and profits to expect from it in order to be successful.  Pricing and projecting finances/profit is one of the first challenges every new business faces and with this we hope to give them a fast start towards knowing what kind of price level to set to be successful.
 
 # Goals
 
-The goal of this project is to understand and use unsupervised learning to discover hidden groups.  After completion of it I have a better understanding of unsupervised clustering apporaches and the best way to optimize their output.  After completion I have a better understanding of how endless the exploration process can be and ideas for where to start and what to look for in the data to provide the best analysis and answer to the question.
+The goal of this project is to understand and use unsupervised learning to discover hidden groups.  After completion of it I have a better understanding of unsupervised clustering apporaches and the best way to optimize their output.  After completion I have a better understanding of how endless the exploration process can be and ideas for where to start and what to look for in the data to provide the best analysis and answer to the question.  I will also be able to create classification models to predict the price level for businesses.
 
 # Background and Field Research
 
@@ -27,22 +28,22 @@ Looping through and querying for each category, I ended up with 8752 rows of dat
 
 **Python Notebooks:**
 <br>
-[Exploratory Data Analysis](https://github.com/zvance1/cluster-businesses/blob/master/notebooks/clean-and-explore.ipynb)
+[Exploratory Data Analysis](https://github.com/zvance1/create-business/blob/master/notebooks/clean-and-explore.ipynb)
 Note: Not all exploratory analysis made it into the final techincal report - only what I saw as most relevant.
 <br>
-[Technical Notebook](https://github.com/zvance1/cluster-businesses/blob/master/notebooks/technical-report.ipynb)
+[Technical Notebook](https://github.com/zvance1/create-business/blob/master/notebooks/technical-report.ipynb)
 
 **Data Folder (all data in csv format, used in our final python notebooks):**
 <br>
-[Data](https://github.com/zvance1/cluster-businesses/tree/master/data)
+[Data](https://github.com/zvance1/create-business/tree/master/data)
 
 **Data Visualizations Folder (all visualizations used in our final python notebook):**
 <br>
-[Data Visualizations](https://github.com/zvance1/cluster-businesses/tree/master/images)
+[Data Visualizations](https://github.com/zvance1/create-business/tree/master/images)
 
 **Python Folder (python technical report notebook, and a notebook that fetches the data, and another for the exploration):**
 <br>
-[Python Files and Notebooks](https://github.com/zvance1/cluster-businesses/tree/main/notebooks)
+[Python Files and Notebooks](https://github.com/zvance1/create-business/tree/main/notebooks)
 
 
 # Project Info
